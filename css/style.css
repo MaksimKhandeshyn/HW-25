@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.box-element:first-child {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.box-element:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    background-color: lightskyblue;
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+    z-index: 1;
+}
+.box-element:last-child {
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
